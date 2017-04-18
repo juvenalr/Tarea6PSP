@@ -32,7 +32,7 @@ public class Vista
          
          }
          
-         String volverform= "<button type="+"\""+"button"+ "\""+">Volver</button>";
+          String volverform="<button type="+"\""+"button"+ "onclick="+"\""+"alert('Hello World!')"+"\""+">volver</button>";
          return encabezado + tablaInicio +columnasEncabezado +valores + " </table> " + volverform+"</body> </html>";
          
          
@@ -49,7 +49,7 @@ public class Vista
          String pError= "<br>" + error + "</br>";
          String cajaPValor="<br> pValor:</br>  <input type= " + "\""+"text"+"\""+ "name=" + "\"" +"pvalor"+"\""+">";
          String cajaGlibertad="<br> Grados Libertad:</br>  <input type= " + "\""+"text"+"\""+ "name=" + "\"" +"glibertad"+"\""+">";
-         String boton="<button type="+"\""+"button"+ "onclick="+"\""+"alert('Hello World!')"+"\""+">Click Me!</button>";
+         String boton="<button type="+"\""+"button"+ "onclick="+"\""+"alert('Hello World!')"+"\""+">Ejecutar!</button>";
          String fin = "</form>";
         return inicio + pError + cajaPValor+ boton + cajaGlibertad + fin;      
      }

@@ -54,7 +54,7 @@ public class AdministraDatos
       for (Dato pDato: ListaDatos)
       {
        contador = contador + 1 ;
-       x= calculos.estimarValorX(pDato.getPValor(),pDato.getGradosLibertad(),0.00001);
+       x= calculos.estimarValorX(pDato.getPValor(),pDato.getGradosLibertad(),0.00000001);
        String llave = "dato" +   Integer.toString(contador);
        ArrayList<String> valores = new ArrayList<String>();
        valores.add(Double.toString(pDato.getPValor()));      
