@@ -32,7 +32,7 @@ public class Vista
          
          }
          
-          String volverform="<button type="+"\""+"button"+ "onclick="+"\""+"alert('Hello World!')"+"\""+">volver</button>";
+          String volverform=" <form> <button type="+"\""+"button"+ "onclick="+"\""+"alert('Hello World!')"+"\""+">volver</button> </form>";
          return encabezado + tablaInicio +columnasEncabezado +valores + " </table> " + volverform+"</body> </html>";
          
          
