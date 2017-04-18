@@ -54,7 +54,7 @@ public class Controlador
             String error="";
             Set<String> queryParams = req.queryParams();
             if  (queryParams.size()>0)
-            {       StringBuilder str = new StringBuilder();
+            {      
 		    
 		    for(String param : queryParams)
                     {
